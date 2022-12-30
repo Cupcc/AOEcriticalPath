@@ -20,11 +20,34 @@ AOE网络求关键路径，C/C++配合QT实现，跨平台图形界面。
 
 （5）采用图形界面。
 
-
-
+<img width="852" alt="image" src="https://user-images.githubusercontent.com/53716543/210078918-746a0d5b-5725-482b-b56e-6ef63235e116.png">
 ## 环境配置
-
 
 ## 展示
+运行展示
+<img width="824" alt="image" src="https://user-images.githubusercontent.com/53716543/210078525-c7b7e452-d2fa-46e9-939f-a5f18e98f294.png">
 
 ## 环境配置
+### 下载qt>=5.10以上版本
+### 使用qt creator创建项目
+1. 选择QWidgets Application
+<img width="1116" alt="image" src="https://user-images.githubusercontent.com/53716543/210078664-a891df0f-c52b-4c0c-b8c5-e92c3e8aa2e9.png">
+2. 填写项目名称和存放路径
+<img width="788" alt="image" src="https://user-images.githubusercontent.com/53716543/210078708-87c25ebf-8fe2-4f25-8b8c-464a0179fc7e.png">
+3. 选择cmake或qmake都可以
+<img width="792" alt="image" src="https://user-images.githubusercontent.com/53716543/210079026-a429c14a-45ac-4870-88c8-28ae98bad725.png">
+4. 选择Qwidget
+<img width="796" alt="image" src="https://user-images.githubusercontent.com/53716543/210079101-9c3bb703-3880-4b7d-b909-296baf431517.png">
+5. 语言：无
+6. 选择一个编译工具，Macos是clang，windows系统是mingw
+<img width="795" alt="image" src="https://user-images.githubusercontent.com/53716543/210079142-c48edce2-b88c-479a-a4ff-91f5b83f8e20.png">
+7. 无， 点完成
+
+8. 将本仓库代码粘贴进项目并替换
+下列代码复制，粘贴进新建的项目，其他文件不用动。
+- origin.txt 
+- widget.cpp
+- widget.h
+- main.h
+- widget.ui
+9. 打开Qt creator 左下角点击绿色按钮构建，若提示是否保存文件，点全部保存。
