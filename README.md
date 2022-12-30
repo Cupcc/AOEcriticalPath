@@ -25,6 +25,7 @@ AOE网络求关键路径，C/C++配合QT实现，跨平台图形界面。
 
 ## 展示
 运行展示
+
 <img width="824" alt="image" src="https://user-images.githubusercontent.com/53716543/210078525-c7b7e452-d2fa-46e9-939f-a5f18e98f294.png">
 
 ## 环境配置
@@ -41,13 +42,17 @@ AOE网络求关键路径，C/C++配合QT实现，跨平台图形界面。
 5. 语言：无
 6. 选择一个编译工具，Macos是clang，windows系统是mingw
 <img width="795" alt="image" src="https://user-images.githubusercontent.com/53716543/210079142-c48edce2-b88c-479a-a4ff-91f5b83f8e20.png">
+
+
 7. 无， 点完成
 
 8. 将本仓库代码粘贴进项目并替换
+
 下列代码复制，粘贴进新建的项目，其他文件不用动。
 - origin.txt 
 - widget.cpp
 - widget.h
 - main.h
 - widget.ui
+
 9. 打开Qt creator 左下角点击绿色按钮构建，若提示是否保存文件，点全部保存。
