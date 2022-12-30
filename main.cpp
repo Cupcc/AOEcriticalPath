@@ -122,7 +122,7 @@ bool criticalPath(const vector<vector<VertexNode>> &graph, const vector<vector<V
 
 bool readFile()
 {
-    ifstream read("./origin.txt");
+    ifstream read("/Users/cupccco/Desktop/demo/task/origin.txt");
 
     if (!read.good())
     {
@@ -147,8 +147,6 @@ bool readFile()
         }
         while (iss >> tmp1 >> tmp2)
         {
-            auto itr = graphMap.find(tmp1) == graphMap.end();
-
             if (graphMap.find(tmp1) == graphMap.end())
             {
                 graphMap.insert(make_pair(tmp1, index++));
@@ -162,7 +160,6 @@ bool readFile()
     for (auto &itr : graphMap)
     {
         indexName[itr.second] = itr.first;
-        int second = itr.second;
     }
 
     // 重新读取
